@@ -1,0 +1,10 @@
+version: '3'
+services:
+  kelmarid-challenge-backend-api:
+    build:
+      context: ..
+      dockerfile: Dockerfile
+    volumes:
+      - ..:/app
+    command: /bin/sh -c "while sleep 1000; do :; done"
+    network_mode: host

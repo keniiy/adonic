@@ -1,0 +1,6 @@
+{
+  "name": "Docker Compose",
+  "dockerComposeFile": "docker-compose.yaml",
+  "service": "kelmarid-challenge-backend-api",
+  "workspaceFolder": "/app"
+}
